@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase=
+"http://alexandercurtis.net/media/Pickarse" 
+    href="Pickarse.jnlp">
+    <information>
+        <title>Pickarse AppTitle</title>
+        <vendor>Pickarse Team</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Pickarse.jar"
+            main="true" />
+
+    </resources>
+    <application-desc
+         name="Pickarse Application-Desc"
+         main-class=
+           "com.logicmill.kickasa.Gui"
+         width="700"
+         height="700">
+     </application-desc>
+     <update check="background"/>
+  <security>
+    <all-permissions/>
+  </security>
+</jnlp>  
+

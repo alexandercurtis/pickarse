@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: com.logicmill.kickasa.Gui
+Permissions: all-permissions
+Codebase: alexandercurtis.net
+Application-Name: pICKARSE
+
